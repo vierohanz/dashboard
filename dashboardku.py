@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import seaborn as sns
 import numpy as np
-from babel.numbers import format_currency
+
 
 df = pd.read_csv('proyek_df.csv')
 
