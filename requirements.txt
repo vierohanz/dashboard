@@ -1,1 +1,6 @@
-
+numpy
+pandas
+streamlit
+matplotlib
+format_currency
+seaborn
