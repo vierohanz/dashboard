@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import seaborn as sns
 import numpy as np
+from babel.numbers import format_currency
 
-
-df = pd.read_csv('proyek_df.csv')
+df = pd.read_csv('proyek_data_analyst.csv')
 
 # #Mengubah dtype column
 data_column = ['order_purchase_timestamp','order_approved_at','order_delivered_carrier_date',
@@ -75,3 +75,5 @@ ax.set_ylabel('Number of Customers')
 st.pyplot(fig)
 st.balloons()
 
+# Caption Hak Cipta
+st.caption('Copyright (c) Dicoding 2023')
