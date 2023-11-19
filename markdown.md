@@ -3,3 +3,7 @@ HOW TO INSTALL LIBRARY:
 
 HOW TO OPEN STREAMLIT IN LOCAL:
   streamlit run dashboardku.py
+
+LINK STREAMLIT:
+  https://dashboard-3xi23zytnzqwdwcvrwlemq.streamlit.app/
+  
