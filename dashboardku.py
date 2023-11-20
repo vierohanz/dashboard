@@ -22,7 +22,7 @@ with st.sidebar:
     
 col1, col2 = st.columns(2)
 with col1:
-    st.header("Purchase Date")
+    st.header("Purchase City")
     code = """# EDA 1: Visualizing Number of Orders in Each City
 data_penjualan = df.groupby(by=df['customer_city']).order_id.nunique().sort_values(ascending=False).reset_index(0).head()
 st.title('Exploratory Data Analysis (EDA)')
